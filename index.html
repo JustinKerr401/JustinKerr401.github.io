@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Justin Kerr's portfolio</title>
+        <title>Justin Kerr Portfolio</title>
         <link rel="icon" href="assets/favicon.png">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <!-- Header -->
         <header>
-            <h1>Justin Kerr</h1>
-            <h3>Software Engineer, Web Developer</h3>
+            <a href="#homeID">Home</a>
+            <a href="#tunesID">Music</a>
         </header>
         <!-- Page Makeup -->
         <main>
-            <!-- "Complimentary" Music -->
-            <div class="tunes">
-                <h4 id="carefor">Care for some complimentary, smooth tunes?</h4>
-                <audio id="mytunes" autoplay controls loop src="assets/Leopard Print Elevator.mp3"></audio>
+            <!-- Music player -->
+            <div class="tunes" id="tunesID">
+                <h3 id="music-header">Care for some smooth, complimentary tunes?</h4>
+                <audio id="audio-player" autoplay controls loop src="assets/Leopard Print Elevator.mp3"></audio>
+                <!-- Make sure music is quiet and calm -->
                 <script>
-                    const audio = document.getElementById("mytunes");
+                    const audio = document.getElementById("audio-player");
                     audio.volume = .1
                 </script>
             </div>
-            <!-- Excess -->
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illo earum doloribus eveniet impedit, dicta vel excepturi dolorum, minus aperiam fugiat odit exercitationem accusantium rerum delectus facilis nam quibusdam. Debitis?</p>
+            <!-- Greeting section -->
+             <div class="home" id="homeID">
+                <h1>Hello, my name is Justin Kerr</h1>
+                <image id="me-picture" src="assets/me-picture.jpg" alt="Picture of me"></image>
+                <a href="https://github.com/JustinKerr401" target="_blank"><image 
+                    src="assets/github logo.png" width="100"></image></a>
+                <a href="https://www.linkedin.com/in/justin-kerr-875377263/" target="_blank"><image 
+                    src="assets/linkedin logo.png" width="100"></image></a>
+             </div>
         </main>
         <!-- Footer -->
         <footer>
@@ -33,6 +41,8 @@
             <p class="footer_text">"Leopard Print Elevator" Kevin MacLeod (incompetech.com)<br>
                 Licensed under Creative Commons: By Attribution 4.0 License<br>
                 http://creativecommons.org/licenses/by/4.0/</p>
+            <h4>Website Repository</h4>
+            <a href="https://github.com/JustinKerr401/JustinKerr401.github.io" target="_blank">https://github.com/JustinKerr401/JustinKerr401.github.io</a>
         </footer>
     </body>
 </html>
