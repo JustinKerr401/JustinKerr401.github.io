@@ -4,18 +4,34 @@ body{
 
 header{
     background-color: rgb(237, 237, 237);
+    margin: 0px;
+    text-align: center;
 }
 
 /* Music <div> block */
 .tunes{
     border-style: solid;
-    border-radius: 5px
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+    max-width: 50%;
+    display: flex;
+    font-style: italic;
+}
+
+/* Care for some tunes? */
+#carefor{
+    display: inline;
+    margin-left: 4px;
 }
 
 /* <audio> */
 #mytunes{
     scale: .75;
-    border-radius: 5px
+    border-radius: 5px;
+    position: relative;
+    left: 100px;
+    top: 5px;
 }
 
 footer{
@@ -24,5 +40,5 @@ footer{
 }
 
 .footer_text{
-    color: rgb(rgb(101, 101, 101))
+    color: rgb(rgb(101, 101, 101));
 }
