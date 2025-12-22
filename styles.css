@@ -143,6 +143,14 @@ header{
 /* ---------------  footer  --------------- */
 
 footer{
-    background-color: hsl(0, 0%, 84%, .5);
-    height: 25vh;
+    background-color: hsl(0, 0%, 74%, .8);
+    display: flex;
+    justify-content: flex-start;
+    height: 15vh;
+    padding-right: 5%;
+    font-size: .8em;
+}
+
+.foot-box{
+    margin: auto;
 }
