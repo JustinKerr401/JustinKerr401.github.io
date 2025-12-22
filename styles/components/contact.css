@@ -7,9 +7,19 @@
 .contact-box{
     background-color: rgb(98, 98, 0, .5);
     margin-top: 2%;
-    height: 70%;
-    width: 20%;
+    height: 241px;
+    width: 241px;
     border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box > p{
+    margin: 0;
+    margin-top: 30px;
+    font-size: 1.3em;
 }
 
 .contact-box > a, .contact-box > a:visited{
