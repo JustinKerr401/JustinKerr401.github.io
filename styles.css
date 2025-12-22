@@ -27,16 +27,16 @@ main{
     margin-top: 50px;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 10vh;
+    margin-bottom: 10px;
 }
 
 /* ---------------  Header  --------------- */
 
 header{
     box-sizing: border-box;
-    padding-top: 2vh;
+    padding-top: 1%;
     background-color: hsl(0, 0%, 84%, .5);
-    height: 15vh;
+    height: 90px;
 }
 
 /* -----------  Nagivation bar  ----------- */
@@ -45,7 +45,7 @@ header{
     background-color: hsl(0, 0%, 74%, .5);
     position: sticky;
     top: 0px;
-    height: 7vh;
+    height: 40px;
     display: flex;
     align-items: center;
 }
@@ -53,7 +53,7 @@ header{
 .box{
     width: 10%;
     height: 100%;
-    line-height: 7vh;
+    line-height: 40px;
     text-decoration: none;
     color: black;
 
@@ -93,15 +93,15 @@ header{
 
 #main{
     background-color: hsl(9, 100%, 64%, .5);
-    scroll-margin-top: 7vh;
+    scroll-margin-top: 50px;
 }
 
 /* ---------------  contact  --------------- */
 
 #contact{
     background-color: rgb(255, 255, 152, .5);
-    scroll-margin-top: 7vh;
-    height: 60vh;
+    scroll-margin-top: 50px;
+    height: 320px;
 }
 
 .contact-boxes{
@@ -130,14 +130,14 @@ header{
 
 #projects{
     background-color: rgb(60, 255, 60, .5);
-    scroll-margin-top: 7vh;
+    scroll-margin-top: 50px;
 }
 
 /* ---------------  skills  --------------- */
 
 #skills{
     background-color: rgb(0, 238, 255, .5);
-    scroll-margin-top: 7vh;
+    scroll-margin-top: 50px;
 }
 
 /* ---------------  footer  --------------- */
@@ -146,7 +146,7 @@ footer{
     background-color: hsl(0, 0%, 74%, .8);
     display: flex;
     justify-content: flex-start;
-    height: 15vh;
+    height: 50px;
     padding-right: 5%;
     font-size: .8em;
 }
