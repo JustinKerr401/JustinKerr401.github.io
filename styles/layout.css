@@ -1,0 +1,29 @@
+main{
+    border: 5px solid;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233, 0.5);
+    margin-top: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10px;
+}
+
+header{
+    box-sizing: border-box;
+    padding-top: 1%;
+    background-color: hsl(0, 0%, 84%, .5);
+    height: 90px;
+}
+
+footer{
+    background-color: hsl(0, 0%, 74%, .8);
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    padding-right: 5%;
+    font-size: .8em;
+}
+
+.foot-box{
+    margin: auto;
+}

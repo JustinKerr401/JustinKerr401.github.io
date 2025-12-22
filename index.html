@@ -3,16 +3,18 @@
     <head>
         <title>Justin Kerr | Software Engineer</title>
         <link rel="icon" href="assets/favicon.png">
-        <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/8ed424e5ef.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
        
+        <!---------------  Header  --------------->
         <header id="header">
             <h1>Justin Kerr</h1>
             <h3>Software Engineer | Web Developer</h3>
         </header>
 
+        <!-----------  Nagivation bar  ----------->
         <nav class="navbar">
             <a class="box" id="box1" href="#header">Home</a>
             <a class="box" id="box2" href="#contact">Contact</a>
@@ -27,13 +29,31 @@
         </nav>
 
         <main>
+            <!----------------  Main  ---------------->
             <section id="main">
-                <h1>This is the main section</h1>
-                <a>My resume</a>
+                <h1 id="message">Hello! Welcome to my website.</h1>
+                <div class="main-boxes">
+                    <div class="main-box" id="mbox1">
+                        <p>I am <b>Justin Kerr</b>. I'm a Computer Science Graduate from West Chester University.<br><br>
+                        I've always been very interested in how things work and making things, so computers proved to
+                        be my biggest intrigue. They are exponentially complex and equally grand in their potential.<br><br>
+                        I began studying at Montgomery County Community College, and continued to pursue my education at West
+                        Chester University once I had attained my Associate's degree. Now I'm looking to pursue a career in the field
+                        to continue learning and producing.</p>
+                    </div>
+                    <div class="main-box" id="mbox2">
+                        <h3>Check out my resume here:</h3>
+                        <a href="assets/Justin Kerr Resume.pdf" target="_blank"><i class="fa-solid fa-file-lines fa-6x"></i></a>
+                    </div>
+                    <div class="main-box" id="mbox3">
+                        <img src="assets/me-picture.jpg" id="me-picture">
+                    </div>
+                </div>
             </section>
 
+            <!---------------  Contact  --------------->
             <section id="contact">
-                <h1 style="padding-top: 1%">Contact me</h1>
+                <h1 style="padding-top: 1%">Contact Me</h1>
                 <div class="contact-boxes">
                     <div class="contact-box">
                         <p></p>
@@ -56,16 +76,18 @@
                 </div>
             </section>
 
+            <!--------------  Projects  -------------->
             <section id="projects">
                 <h1>This is the projects section</h1>
             </section>
 
+            <!---------------  skills  --------------->
             <section id="skills">
                 <h1>This is the skills section</h1>
             </section>
-
         </main>
 
+        <!---------------  Footer  --------------->
         <footer>
             <div class="foot-box" id="music">"Leopard Print Elevator" Kevin MacLeod (incompetech.com)<br>
                 Licensed under Creative Commons: By Attribution 4.0 License<br>

@@ -1,0 +1,21 @@
+.contact-boxes{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-box{
+    background-color: rgb(98, 98, 0, .5);
+    margin-top: 2%;
+    height: 70%;
+    width: 20%;
+    border-radius: 35px;
+}
+
+.contact-box > a, .contact-box > a:visited{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-box > a:hover{
+    color: rgb(0, 0, 0);
+}
