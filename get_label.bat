@@ -1,2 +1,1 @@
 python assets/html_label_maker.py
-pause

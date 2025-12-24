@@ -18,11 +18,143 @@
         <nav class="navbar">
             <a class="box box1" href="index.html">Home</a>
             <a class="box box2" href="projects.html">Projects</a>
+            <a class="box box3" href="#website">Portfolio Website</a>
+            <a class="box box4" href="#pig">Game of Pig</a>
+            <a class="box box5" href="#minecraft">Minecraft Server</a>
+            <a class="box box6" href="#tlm">TierListMaker</a>
         </nav>
 
-        <!------------  Primary section -------------->
         <main>
-            <section id="poop"></section>
+
+            <!-----------  Portfolio Website ------------->
+            <section id="website">
+                
+                <h1 class="opener">Portfolio Website</h1>
+                
+                <div class="display-box pw">
+                    <h2>Languages</h2>
+                    <div class="icon-label-pair">
+                        <i class="fa-brands fa-html5" style="color: rgb(228, 77, 38, .75)"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="icon-label-pair">
+                        <i class="fa-brands fa-css3-alt" style="color: rgb(38, 77, 228, .75)"></i>
+                        <h3>CSS</h3>
+                    </div>
+                </div>
+
+                <p class="description">
+                    A custom-designed web portfolio showcasing my work as a Software Engineer and Web Developer.<br><br>
+                </p>
+
+                <div class="display-box pw icon-label-pair">
+                    <a href="https://github.com/JustinKerr401/JustinKerr401.github.io" target="_blank"><i class="fa-solid fa-code"></i></a>
+                    <h3>Source code</h3>
+                </div>
+
+                <div class="display-box pw">
+                    <h2>Technologies</h2>
+                    <div class="icon-label-pair" style="grid-column: 1 / -1">
+                        <i class="fa-brands fa-github" style="color: rgb(0, 0, 0, .75)"></i>
+                        <h3>Github Pages</h3>
+                    </div>
+                </div>
+            </section>
+
+            <!--------------  Game of Pig ---------------->
+            <section id="pig">
+                <h1 class="opener">Game of Pig</h1>
+
+                <div class="display-box gop">
+                    <h2>Languages</h2>
+                    <div class="icon-label-pair" style="grid-column: 1 / -1">
+                        <i class="fa-brands fa-swift" style="color: rgb(228, 77, 38, .75)"></i>
+                        <h3>Swift</h3>
+                    </div>
+                </div>
+
+                <p class="description">
+                    An iOS app that follows Apple's Human Interface Guidelines and implements the classic game of Pig.<br><br>
+
+                    This project was a school assignment to develop an iOS application that allows two players to play Pig, a 
+                    turn-based dice game in which players roll to accumulate points until one reaches 100. A turn ends either 
+                    by choosing to hold or by rolling a 1, which forfeits the turn's accumulated points.<br><br>
+
+                    The app was built using Swift and Storyboards, with a single main view designed to meet provided visual and 
+                    usability requirements. The project required managing multiple game states and connecting storyboard UI 
+                    elements to Swift logic.<br><br>
+
+                    The final application is fully functional and adheres to Apple's Human Interface Guidelines. While it does not 
+                    support landscape orientation, the project met all other requirements and received a final grade of 98%.
+                </p>
+
+                <div class="display-box gop icon-label-pair">
+                    <a href="https://github.com/JustinKerr401/Game-of-Pig" target="_blank"><i class="fa-solid fa-code"></i></a>
+                    <h3>Source code</h3>
+                </div>
+
+                <div class="display-box gop">
+                    <h2>Technologies</h2>
+                    <div class="icon-label-pair" style="grid-column: 1 / -1">
+                        <img src="assets/Xcode logo.png"></img>
+                        <h3>Xcode + Storyboard</h3>
+                    </div>
+                </div>
+
+                <div class="display-box gop icon-label-pair">
+                    <a href="https://youtube.com/shorts/vfxXSGUv2io?feature=share" target="_blank"><i class="fa-solid fa-clapperboard"></i></a>
+                    <h3>Demonstration</h3>
+                </div>
+            </section>
+
+            <!-----------  Minecraft Server ------------->
+            <section id="minecraft">
+
+                <h1 class="opener">Minecraft Server</h1>
+
+                <div class="display-box ms" style="grid-row: 2 / 4">
+                    <h2>Technologies</h2>
+                    <div class="icon-label-pair">
+                        <img src="assets/Minecraft logo.png">
+                        <h3>Minecraft Server Software</h3>
+                    </div>
+                    <div class="icon-label-pair">
+                        <i class="fa-brands fa-linux"></i>
+                        <h3>Linux</h3>
+                    </div>
+                    <div class="icon-label-pair">
+                        <i class="fa-brands fa-linode"></i>
+                        <h3>Linode (Cloud VM)</h3>
+                    </div>
+                </div>
+
+                <p class="description">
+                    A fully customized Minecraft server hosting environment built on a cloud virtual machine.<br><br>
+
+                    Playing Minecraft with friends on Java Edition requires a dedicated server, and supporting multiple 
+                    modpacks adds additional complexity. To solve this, I designed and deployed a cloud-based hosting 
+                    solution rather than relying on restricted third-party services.<br><br>
+
+                    I provisioned a Linode cloud virtual machine and managed it through SSH and SCP, handling all file transfers, 
+                    server configuration, and environment setup. I configured the Linux system, installed the required software, 
+                    and maintained the server entirely through the terminal.<br><br>
+
+                    The result was a flexible hosting environment capable of running vanilla or modded Minecraft versions, 
+                    offering full control over configurations and the freedom that comes with managing a virtual machine.
+                </p>
+
+                <div class="display-box gop icon-label-pair">
+                    <a href="https://drive.google.com/file/d/1npnq8x5aVsTB46IXa2IisKoWA6ojia3e/view?usp=drive_link" 
+                    target="_blank"><i class="fa-solid fa-code"></i></a>
+                    <h3>Source code</h3>
+                </div>
+            </section>
+
+            <!-------------  TierListMaker --------------->
+            <section id="tlm">
+
+                <h1 class="opener">TierListMaker</h1>
+            </section>
         </main>
 
         <!----------------  Footer ------------------>

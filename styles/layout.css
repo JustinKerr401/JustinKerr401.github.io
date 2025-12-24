@@ -12,9 +12,14 @@ main{
     flex-direction: column;
 }
 
+    .opener{
+        grid-column: 1 / -1;
+        text-align: center;
+        border-bottom: 1px solid;
+    }
+
 section{
     scroll-margin-top: 40px;
-    border-bottom: 1px dotted;
     padding: 20px;
 }
 
@@ -22,9 +27,12 @@ header{
     box-sizing: border-box;
     padding-top: 1%;
     background-color: hsl(0, 0%, 84%, .5);
-    height: 90px;
     text-align: center;
 }
+
+    header h3{
+        padding-bottom: 15px;
+    }
 
 footer{
     background-color: hsl(0, 0%, 74%, .8);
