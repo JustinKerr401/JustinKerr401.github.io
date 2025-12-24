@@ -5,11 +5,10 @@ html{
 
 body, h1, h3{
     margin: 0;
-    text-align: center;
 }
 
-body{
-    background-color: hsl(0, 0%, 74%);
+h1{
+    padding-bottom: 7px;
 }
 
 body{
@@ -18,5 +17,4 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    margin: 0px;
 }

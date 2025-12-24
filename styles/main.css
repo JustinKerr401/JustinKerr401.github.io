@@ -8,5 +8,4 @@
 
 /* Distinct component styling */
 @import "components/navbar.css";
-@import "components/contact.css";
-@import "components/main_section.css";
+@import "components/icon-label-pair.css"

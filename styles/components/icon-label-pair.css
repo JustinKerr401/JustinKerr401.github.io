@@ -1,0 +1,22 @@
+/* Element alignment */
+.icon-label-pair{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+/* Icon sizing + coloring */
+.icon-label-pair i{
+    font-size: 130px;
+}
+
+.icon-label-pair a, .icon-label-pair a:visited {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.icon-label-pair a:hover{
+    color: rgb(0, 0, 0);
+}

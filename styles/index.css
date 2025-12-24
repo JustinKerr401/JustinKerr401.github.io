@@ -1,17 +1,45 @@
-.section{
-    scroll-margin-top: 50px;
+.opener{
+    grid-column: 1 / -1;
+    text-align: center;
+    border-bottom: 1px solid;
 }
 
 #main{
-    background-color: hsla(29, 100%, 71%, 0.5);
-    padding: 15px;
+    background-color: rgba(223, 255, 255, 0.4);
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
 }
 
+    #resume{
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
+    #bio{
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    #me-picture{
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+        height: 233px;
+    }
+
 #contact{
-    background-color: rgb(255, 255, 152, .5);
-    height: 340px;
+    background-color: rgba(172, 195, 173, 0.4);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #skills{
-    background-color: rgb(60, 255, 60, .5);
+    background-color: rgba(120, 135, 90, 0.4);
 }

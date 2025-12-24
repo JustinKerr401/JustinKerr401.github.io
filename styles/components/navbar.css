@@ -1,4 +1,5 @@
 .navbar{
+    text-align: center;
     background-color: hsl(0, 0%, 74%, .5);
     position: sticky;
     top: 0px;
@@ -17,7 +18,7 @@
 
 /* Button styling */
 .box:hover{
-    background-color: rgb(152, 226, 255, .5);
+    background-color: rgba(87, 207, 255, 0.5);
 }
 
 .box2{
