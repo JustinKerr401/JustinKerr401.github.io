@@ -9,16 +9,12 @@
     padding: 10px;
 }
 
-    .display-box.pw{
-        background-color: rgba(223, 255, 255, 0.4);
+    .display-box.blue{
+        background-color: rgba(223, 255, 255, 0.6);
     }
 
-    .display-box.gop{
-        background-color: rgba(172, 195, 173, 0.4);
-    }
-
-    .display-box.ms{
-        background-color: rgba(223, 255, 255, 0.4);
+    .display-box.green{
+        background-color: rgba(172, 195, 173, 0.6);
     }
 
     .display-box h2{
@@ -34,26 +30,18 @@
     grid-column: 2 / 3;
 }
 
-#website{
+#website, #minecraft{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr; 
     grid-template-rows: repeat(4, auto);
     grid-gap: 20px;
-    background-color: rgba(223, 255, 255, 0.4);
+    background-color: rgba(223, 255, 255, 0.6);
 }
 
-#pig{
+#pig, #tlm{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: repeat(4, auto);
     grid-gap: 20px;
-    background-color: rgba(172, 195, 173, 0.4);
-}
-
-#minecraft{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr; 
-    grid-template-rows: repeat(4, auto);
-    grid-gap: 20px;
-    background-color: rgba(223, 255, 255, 0.4);
+    background-color: rgba(172, 195, 173, 0.6);
 }
