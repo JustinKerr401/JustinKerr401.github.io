@@ -3,4 +3,4 @@
 2. Update resume
 
 # Miscellaneous 
-- Asd personal section: showcase Power Ranking placements and marathon time
+- Asd personal page: showcase Power Ranking placements and marathon time
