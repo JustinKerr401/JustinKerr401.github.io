@@ -1,7 +1,7 @@
 # To Do
-1. See if head tag is a problem
-2. Do skills section
-3. Update resume
+1. Do skills section
+2. Update resume
 
-# Miscellaneous 
+# Miscellaneous / maybes
 - Asd personal page: showcase Power Ranking placements and marathon time
+- Add MySQLShell to projects

@@ -36,4 +36,8 @@
 
 #skills{
     background-color: rgba(120, 135, 90, 0.6);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-gap: 20px;
 }
