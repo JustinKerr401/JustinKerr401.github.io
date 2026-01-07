@@ -1,0 +1,10 @@
+/* Core HTML components */
+@import "core.css";
+/* Main element styling */
+@import "main.css";
+/* Specific web pages   */
+@import "index.css";
+
+/* Distinct component styling */
+@import "components/navbar.css";
+@import "components/icon_label_pair.css";

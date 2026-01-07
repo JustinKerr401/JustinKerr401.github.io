@@ -4,7 +4,7 @@
         <title>Justin Kerr | Home</title>
         <link rel="icon" href="assets/favicon.png">
         <script src="https://kit.fontawesome.com/8ed424e5ef.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
        
@@ -24,121 +24,136 @@
         </nav>
 
         <main>
+            
             <!-----------------  Intro ------------------->
             <section id="main">
                 <h1 class="opener">Hello! Welcome to my portfolio website.</h1>
-                <p id="bio">I am <b>Justin Kerr</b>. I'm a Computer Science Graduate from West Chester University.<br><br>
-                    I've always been very interested in how things work and making things, so computers proved to
-                    be my biggest intrigue. They are exponentially complex and equally grand in their potential.<br><br>
-                    I began studying at Montgomery County Community College, and continued to pursue my education at West
-                    Chester University once I had attained my Associate's degree. Now I'm looking to pursue a career in the field
-                    to continue learning and producing.</p>
-                <div class="icon-label-pair" id="resume">
-                    <a href="assets/Justin Kerr Resume.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
-                    <h3>My Resume</h3>
+                <div id="bio">
+                    <div class="icon_label_pair">
+                        <a href="assets/Justin Kerr Resume.pdf" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
+                        <p>My Resume</p>
+                    </div>
+                    <p>I am <b>Justin Kerr</b>. I'm a Computer Science Graduate from West Chester University.<br><br>
+                        I've always been very interested in how things work and making things, so computers proved to
+                        be my biggest intrigue. They are exponentially complex and equally grand in their potential.<br><br>
+                        I began studying at Montgomery County Community College, and continued to pursue my education at West
+                        Chester University once I had attained my Associate's degree. Now I'm looking to pursue a career in the field
+                        to continue learning and producing.</p>
+                    <img src="assets/me-picture.jpg" id="me-picture">
                 </div>
-                <img src="assets/me-picture.jpg" id="me-picture">
             </section>
 
             <!----------------  Contact ------------------>
             <section id="contact">
                 <h1 class="opener">Contact Me</h1>
-                <div class="icon-label-pair">
-                    <a href="https://github.com/JustinKerr401" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <h3>Github</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <a href="https://www.linkedin.com/in/justin-kerr-875377263/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        <h3>LinkedIn</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <a href="mailto:justinkerr4018@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                        <h3>Email</h3>
+                <div class="icon_list">
+                    <div class="icon_label_pair">
+                        <a href="https://github.com/JustinKerr401" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <p>Github</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <a href="https://www.linkedin.com/in/justin-kerr-875377263/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <p>LinkedIn</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <button type="button" onclick="showEmail()"><i class="fa-solid fa-envelope"></i></button>
+                        <p>Email</hp3>
+                    </div>
                 </div>
             </section>
 
             <!----------------  Skills ------------------>
             <section id="skills">
-                <h1 class="opener">Skills</h1>
+                <h1 class="opener">My Skills</h1>
 
-                <img src="assets/Core skills divider.png" style="grid-column: 1 / -1; width: 100%">
-                
-                <div class="icon-label-pair">
-                    <img src="assets/logos/python logo.png">
-                    <h3>Python</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <img src="assets/logos/java logo.png">
-                    <h3>Java</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-brands fa-html5" style="color: rgb(228, 77, 38, .75)"></i>
-                    <h3>HTML</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-brands fa-css3-alt" style="color: rgb(38, 77, 228, .75)"></i>
-                    <h3>CSS</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-brands fa-swift" style="color: rgb(228, 77, 38, .75)"></i>
-                    <h3>Swift</h3>
-                </div>
-                <div class="icon-label-pair" style="grid-column: 2 / 3">
-                    <i class="fa-solid fa-database" style="color: rgb(219, 117, 51, .75)"></i>
-                    <h3>SQL</h3>
-                </div>
-                <div class="icon-label-pair" style="grid-column: 4 / 5">
-                    <i class="fa-brands fa-git-alt" style="color: rgb(240, 81, 51, .75)"></i>
-                    <h3>Git</h3>
-                </div>
+                <img src="assets/Core skills divider.png" class="divider">
+                <div class="icon_list">
+                    <div class="icon_label_pair">
+                        <img src="assets/logos/python logo.png">
+                        <p>Python</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <img src="assets/logos/java logo.png">
+                        <p>Java</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-brands fa-html5" style="color: rgb(228, 77, 38, .75)"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-brands fa-css3-alt" style="color: rgb(38, 77, 228, .75)"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-brands fa-swift" style="color: rgb(228, 77, 38, .75)"></i>
+                        <p>Swift</p>
+                    </div>
 
-                <img src="assets/Working knowledge divider.png" style="grid-column: 1 / -1; width: 100%">
-
-                <div class="icon-label-pair" style="grid-column: 2 / 3">
-                    <img src="assets/logos/c logo.png">
-                    <h3>C</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-brands fa-docker" style="color: rgb(37, 151, 238, .75)"></i>
-                    <h3>Docker</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <img src="assets/logos/haskell logo.png">
-                    <h3>Haskell</h3>
+                    <div style="height: 165px; width: 2px; background-color: black;"></div>
+                    
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-database" style="color: rgb(219, 117, 51, .75)"></i>
+                        <p>SQL</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-brands fa-git-alt" style="color: rgb(240, 81, 51, .75)"></i>
+                        <p>Git</p>
+                    </div>
                 </div>
 
-                <img src="assets/Academic Foundations divider.png" style="grid-column: 1 / -1; width: 100%">
-
-                <div class="icon-label-pair">
-                    <i class="fa-solid fa-table-cells"></i>
-                    <h3>Computer Science Foundations</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-solid fa-microchip"></i>
-                    <h3>Operating Systems</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-solid fa-gear"></i>
-                    <h3>Software Engineering Principles</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-solid fa-file-code"></i>
-                    <h3>Programming Language Paradigms</h3>
-                </div>
-                <div class="icon-label-pair">
-                    <i class="fa-solid fa-lock"></i>
-                    <h3>Computer Security & Ethics</h3>
-                </div>
-                <div class="icon-label-pair" style="grid-column: 2 / 3">
-                    <i class="fa-solid fa-cloud"></i>
-                    <h3>Cloud Computing Fundamentals</h3>
-                </div>
-                <div class="icon-label-pair" style="grid-column: 4 / 5">
-                    <i class="fa-solid fa-server"></i>
-                    <h3>Big Data Systems</h3>
+                <img src="assets/Working knowledge divider.png" class="divider">
+                <div class="icon_list">
+                    <div class="icon_label_pair">
+                        <i class="fa-brands fa-js" style="color: rgb(247, 223, 30, .75);"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <img src="assets/logos/c logo.png">
+                        <p>C</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-brands fa-docker" style="color: rgb(37, 151, 238, .75)"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <img src="assets/logos/haskell logo.png">
+                        <p>Haskell</p>
+                    </div>
                 </div>
 
+                <img src="assets/Academic Foundations divider.png" class="divider">
+                <div class="icon_list">
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-table-cells"></i>
+                        <p>Computer Science Foundations</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-microchip"></i>
+                        <p>Operating Systems</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-gear"></i>
+                        <p>Software Engineering Principles</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-file-code"></i>
+                        <p>Programming Language Paradigms</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-lock"></i>
+                        <p>Computer Security & Ethics</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-cloud"></i>
+                        <p>Cloud Computing Fundamentals</p>
+                    </div>
+                    <div class="icon_label_pair">
+                        <i class="fa-solid fa-server"></i>
+                        <p>Big Data Systems</p>
+                    </div>
+                </div>
             </section>
+
         </main>
 
         <!----------------  Footer ------------------>
@@ -148,5 +163,7 @@
             <p style="text-align: right">Repo link: <a href="https://github.com/JustinKerr401/JustinKerr401.github.io" 
                     target="_blank">https://github.com/JustinKerr401/JustinKerr401.github.io</a></p>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>

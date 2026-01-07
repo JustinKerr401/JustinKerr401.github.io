@@ -1,5 +1,5 @@
 # To Do
-1. Fix window sizing issue
+1. Remake projects
 
 # Miscellaneous / maybes
 - Asd personal page: showcase Power Ranking placements and marathon time
