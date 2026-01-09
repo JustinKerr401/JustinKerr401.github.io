@@ -1,43 +1,40 @@
 #main{
     background-color: rgba(223, 255, 255, 0.6);
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 20px;
 }
 
-    #resume{
-        grid-row: 2 / 3;
-        grid-column: 1 / 2;
+    #bio{
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
     }
 
-    #bio{
-        grid-row: 2 / 3;
-        grid-column: 2 / 3;
-        text-align: center;
+    #bio p{
         font-size: 1.3em;
+        text-align: center;
     }
 
     #me-picture{
-        grid-row: 2 / 3;
-        grid-column: 3 / 4;
-        height: 233px;
+        max-height: 195px;
     }
 
 #contact{
     background-color: rgba(172, 195, 173, 0.6);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 #skills{
     background-color: rgba(120, 135, 90, 0.8);
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(8, auto);
-    grid-gap: 20px;
 }
+
+    .icon_list{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 20px;
+    }
+
+    .divider{
+        width: 100%;
+        max-width: 100%;
+    }

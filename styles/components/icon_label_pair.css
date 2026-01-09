@@ -1,0 +1,35 @@
+.icon_label_pair{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.icon_label_pair img{
+    max-width: 130px;
+    max-height: 130px;
+}
+
+.icon_label_pair i{
+    font-size: 130px;
+    text-shadow: 10px 10px 20px hsl(0, 0%, 0%, .2);
+}
+
+.icon_label_pair p{
+    font-size: 1.3em;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.icon_label_pair a, .icon_label_pair a:visited, .icon_label_pair button {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.icon_label_pair a:hover, .icon_label_pair button:hover{
+    color: rgb(0, 0, 0);
+}
+
+.icon_label_pair button{
+    border: none;
+    background-color: transparent;
+}
