@@ -9,11 +9,12 @@
 }
 
 .box{
-    width: 10%;
+    width: 13%;
     height: 100%;
     line-height: 40px;
     text-decoration: none;
     color: black;
+    overflow: hidden;
 }
 
 /* Button styling */
