@@ -1,0 +1,66 @@
+#website, #minecraft{
+    background-color: rgba(223, 255, 255, 0.6);
+}
+
+#pig, #tlm{
+    background-color: rgba(172, 195, 173, 0.6);
+}
+
+    #website .component, #minecraft .component{
+        background-color: rgba(223, 255, 255, 0.8);
+    }
+
+    #pig .component, #tlm .component{
+        background-color: rgba(172, 195, 173, 0.8);
+    }
+
+.components{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 20px;
+}
+
+.component{
+    border: 2px groove hsl(0, 0%, 0%, .5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.component_label{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.description{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.output_example{
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+}
+
+    .output_example img{
+        width: 50%;
+    }
+
+    .output_example p{
+        font-size: 1.3em;
+        font-weight: bold;
+        width: 100%;
+        margin-bottom: 0px;
+    }

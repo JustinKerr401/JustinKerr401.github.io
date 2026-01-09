@@ -12,12 +12,13 @@
 
 .icon_label_pair i{
     font-size: 130px;
+    text-shadow: 10px 10px 20px hsl(0, 0%, 0%, .2);
 }
 
 .icon_label_pair p{
     font-size: 1.3em;
     font-weight: bold;
-    max-width: 130px;
+    max-width: 100%;
 }
 
 .icon_label_pair a, .icon_label_pair a:visited, .icon_label_pair button {
