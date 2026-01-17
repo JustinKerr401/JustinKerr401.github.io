@@ -18,7 +18,7 @@
 .icon_label_pair p{
     font-size: 1.3em;
     font-weight: bold;
-    max-width: 100%;
+    max-width: 130px;
 }
 
 .icon_label_pair a, .icon_label_pair a:visited, .icon_label_pair button {

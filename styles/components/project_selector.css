@@ -1,0 +1,21 @@
+#project_selector{
+    background-color: hsl(0, 0%, 0%, .7);
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    padding: 10px 10px;
+}
+
+#project_selector > label{
+    color: hsl(185, 100%, 90%);
+    font-size: 1.3rem;
+}
+
+ #project_selector > h4{
+    font-size: 1.3rem;
+    color: hsl(185, 100%, 90%);
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px 0px;
+    margin-bottom: 8px;
+ }
