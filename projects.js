@@ -59,6 +59,15 @@ function updateDisplays(allowedChecks){
             header[x].style.display = "none"
         }
     }
+
+    if (checkNum == 0){
+        const main = document.querySelector("main")
+        main.style.border = "none"
+    } else {
+        const main = document.querySelector("main")
+        main.style.border = "4px solid"
+        main.style.borderRadius = "10px"
+    }
 }
 
 function colorClass(value){

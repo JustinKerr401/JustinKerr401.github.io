@@ -18,7 +18,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
     column-gap: 20px;
+    row-gap: 20px;
 }
 
 .component{
@@ -27,7 +30,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
