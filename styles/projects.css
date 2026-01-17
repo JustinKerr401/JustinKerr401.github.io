@@ -1,16 +1,16 @@
-#website, #minecraft{
+.blue{
     background-color: rgba(223, 255, 255, 0.6);
 }
 
-#pig, #tlm{
+.green{
     background-color: rgba(172, 195, 173, 0.6);
 }
 
-    #website .component, #minecraft .component{
+    .blue .component{
         background-color: rgba(223, 255, 255, 0.8);
     }
 
-    #pig .component, #tlm .component{
+    .green .component{
         background-color: rgba(172, 195, 173, 0.8);
     }
 
