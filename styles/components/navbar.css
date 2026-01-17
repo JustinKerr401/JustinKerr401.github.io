@@ -1,4 +1,4 @@
-.navbar{
+#navbar{
     text-align: center;
     background-color: hsl(0, 0%, 74%, .5);
     position: sticky;
@@ -22,6 +22,6 @@
     background-color: rgba(87, 207, 255, 0.5);
 }
 
-.box2{
+.edge{
     border-right: 1px solid black;
 }

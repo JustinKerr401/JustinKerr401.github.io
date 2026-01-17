@@ -15,22 +15,14 @@
         </header>
 
         <!------------  Navigation Bar -------------->
-        <nav class="navbar">
-            <a class="box box1" href="index.html">Home</a>
-            <a class="box box2" href="projects.html">Projects</a>
-            <a class="box box3" href="#website">Portfolio Website</a>
-            <a class="box box4" href="#pig">Game of Pig</a>
-            <a class="box box5" href="#minecraft">Minecraft Server</a>
-            <a class="box box6" href="#tlm">TierListMaker</a>
+        <nav id="navbar">
+            <a class="box" href="index.html">Home</a>
+            <a class="box edge" href="projects.html">Projects</a>
         </nav>
 
         <!-----------  Project Selector ------------->
-        <div id="project_selector">
+        <div id="project_selector" class="visible">
             <h4>Project Selector</h4>
-            <input type="checkbox"><label>Portfolio Website</label><br>
-            <input type="checkbox"><label>Game of Pig</label><br>
-            <input type="checkbox"><label>Minecraft Server</label><br>
-            <input type="checkbox"><label>TierListMaker</label><br>
         </div>
 
         <main>
@@ -46,6 +38,10 @@
                         <div class="icon_label_pair">
                             <i class="fa-brands fa-html5" style="color: rgb(228, 77, 38, .75)"></i>
                             <p>HTML</p>
+                        </div>
+                        <div class="icon_label_pair">
+                            <i class="fa-brands fa-js" style="color: rgb(247, 223, 30, .75);"></i>
+                            <p>JavaScript</p>
                         </div>
                         <div class="icon_label_pair">
                             <i class="fa-brands fa-css3-alt" style="color: rgb(38, 77, 228, .75)"></i>
@@ -83,6 +79,73 @@
                     my projects, experience, and professional growth in a clean and organized way.<br><br>
                 </p>
                 
+            </section>
+
+            <!----------  20/20/20 Vision Aid ------------>
+            <section id="vision_aid">
+                <h1 class="opener">20/20/20 Vision Aid</h1>
+                
+                <div class="components">
+                    
+                    <div class="component">
+                        <h2 class="component_label">Languages</h2>
+                        <div class="icon_label_pair">
+                            <i class="fa-brands fa-html5" style="color: rgb(228, 77, 38, .75)"></i>
+                            <p>HTML</p>
+                        </div>
+                        <div class="icon_label_pair">
+                            <i class="fa-brands fa-js" style="color: rgb(247, 223, 30, .75);"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="icon_label_pair">
+                            <i class="fa-brands fa-css3-alt" style="color: rgb(38, 77, 228, .75)"></i>
+                            <p>CSS</p>
+                        </div>
+                    </div>
+
+                    <div class="component">
+                        <h2 class="component_label">Technologies</h2>
+                        <div class="icon_label_pair">
+                            <i class="fa-brands fa-github"></i>
+                            <p>Github</p>
+                        </div>
+                    </div>
+
+                    <div class="component">
+                        <h2 class="component_label">Link to application</h2>
+                        <div class="icon_label_pair">
+                            <a href="https://justinkerr401.github.io/202020-Aid/" target="_blank"><i class="fa-solid fa-code"></i></a>
+                            <p style="color: hsl(0, 100%, 50%, 0)">secret</p>
+                        </div>
+                    </div>
+
+                    <div class="component">
+                        <h2 class="component_label">Source code</h2>
+                        <div class="icon_label_pair">
+                            <a href="https://github.com/JustinKerr401/202020-Aid" target="_blank"><i class="fa-solid fa-code"></i></a>
+                            <p style="color: hsl(0, 100%, 50%, 0)">secret</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="description">
+                    Frequent screen use can contribute to migraines, and consistently following the 20/20/20 rule can be difficult—especially 
+                    when most automation tools require paid subscriptions.<br><br>
+
+                    To solve this, I developed a Progressive Web App (PWA) that offers a simple, accessible way to track screen time and 
+                    encourage healthy visual habits while working on a computer.<br><br>
+
+                    The app supports the 20/20/20 rule: after 20 minutes of screen use, take 20 seconds to look at something 20 feet away 
+                    or more to reduce eye strain and fatigue.<br><br>
+
+                    This project is built as a PWA rather than a native application, which limits access to system-level background 
+                    processes. Because of this, it cannot reliably run in the background on mobile devices—especially on iOS where 
+                    background execution is restricted.<br><br>
+
+                    While the mobile experience is less consistent, the app performs well on desktop and laptop environments where it 
+                    can stay active during work sessions, making it effective for supporting healthy screen habits at a desk.<br><br>
+                </p>
+
             </section>
 
             <!--------------  Game of Pig ---------------->
@@ -266,6 +329,7 @@
                     target="_blank">https://github.com/JustinKerr401/JustinKerr401.github.io</a></p>
         </footer>
 
+        <script src="createNavbar.js"></script>
         <script src="projects.js"></script>
     </body>
 </html>
