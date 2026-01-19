@@ -1,0 +1,52 @@
+#project_selector{
+    background-color: hsl(0, 0%, 0%, .7);
+    position: fixed;
+    top: 40%;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+#project_selector > h4{
+    font-size: 1.3rem;
+    color: hsl(212, 100%, 90%);
+    text-align: center;
+    text-decoration: underline;
+    margin: 0px 0px;
+    margin-bottom: 8px;
+}
+
+#project_selector > label{
+    color: hsl(212, 100%, 85%);
+    font-size: 1.3rem;
+}
+
+.hidden{
+    right: -225px;
+    animation-name: hide;
+    animation-duration: .5s;
+}
+
+.visible{
+    right: -30px;
+    animation-name: show;
+    animation-duration: .5s;
+}
+
+
+@keyframes hide{
+    from {
+        right: -30px;
+    }
+    to {
+        right: -225px;
+    }
+}
+
+@keyframes show{
+    from {
+        right: -225px;
+    }
+    to {
+        right: -30px;
+    }
+}
