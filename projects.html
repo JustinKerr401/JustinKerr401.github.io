@@ -90,22 +90,26 @@
                 </div>
 
                 <p class="description">
-                    A personal finance analysis tool designed to make bank activity easier to understand by transforming 
-                    exported transaction data into clear account-balance and net-worth visualizations.<br><br>
+                    Bank Analyst is a personal finance analytics tool that imports bank transaction history from CSV files, 
+                    stores the data in a MySQL database, and transforms it into interactive dashboards for analyzing account 
+                    balances, net worth, and spending habits.<br><br>
 
-                    I created this project to gain a better understanding of where my money was going while building a more 
-                    organized way to track activity across multiple financial accounts.<br><br>
+                    I created this project to make it easier to understand my personal finances without manually reviewing bank 
+                    statements. By consolidating transaction history from multiple accounts into a single database, the application 
+                    provides a clearer view of long-term financial trends and day-to-day spending.<br><br>
 
-                    The application is built with Python and MySQL, using Pandas to process bank CSV files and Matplotlib and 
-                    Plotly to present the data visually. It supports Regular Share, Checking Share, Money Market, and Visa Loan 
-                    accounts while preventing duplicate transaction imports and handling CSV parsing issues caused by company 
-                    names containing commas.<br><br>
+                    Built with Python, MySQL, Pandas, SQLAlchemy, and Plotly, Bank Analyst processes exported bank CSV files, prevents 
+                    duplicate imports, and automatically handles common CSV parsing issues caused by merchant names containing commas. 
+                    It supports Regular Share, Checking Share, Money Market, and Visa Loan accounts while securely managing database 
+                    credentials through environment variables.<br><br>
 
-                    Bank Analyst provides a cohesive view of account growth, debt changes, and total net worth over time. 
-                    Future improvements include expense analysis by category and company, tools for assigning categories 
-                    to uncategorized transactions, and Docker containerization to make the project easier to run across 
-                    different systems.
+                    The application includes interactive dashboards for tracking account balances and net worth over time, along with 
+                    customizable expense analysis that highlights spending by category, top merchants, and largest purchases while 
+                    automatically excluding internal account transfers. Planned improvements include tools for categorizing 
+                    uncategorized transactions and Docker containerization.
+
                 </p>
+
                 
             </section>
             
