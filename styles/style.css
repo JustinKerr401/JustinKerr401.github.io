@@ -5,6 +5,7 @@
 /* Specific web pages   */
 @import "index.css";
 @import "projects.css";
+@import "experience.css";
 
 /* Distinct component styling */
 @import "components/navbar.css";

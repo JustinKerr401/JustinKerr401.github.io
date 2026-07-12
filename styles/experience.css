@@ -1,0 +1,17 @@
+.range{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.role-header{
+    font-size: 1.6rem;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 5px;
+}
+
+.role-points{
+    font-size: 1.3rem;
+}
