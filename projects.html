@@ -27,6 +27,56 @@
 
         <main>
 
+            <!-------------  Wiki Builder --------------->
+            <section id="Wiki Builder">
+                <h1 class="opener">Wiki Builder</h1>
+
+                <div class="components">
+                    
+                    <div class="component">
+                        <h2 class="component_label">Primary Components</h2>
+                        <div class="icon_label_pair">
+                            <i class="fa-brands fa-js" style="color: rgb(247, 223, 30, .75);"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="icon_label_pair">
+                            <i class="fa-brands fa-node-js"></i>
+                            <p>Node.js</p>
+                        </div>
+                        <div class="icon_label_pair">
+                            <img src="assets/logos/Express js.png">
+                            <p>Express.js</p>
+                        </div>
+                        <div class="icon_label_pair">
+                            <img src="assets/logos/mongodb logo.webp">
+                            <p>MongoDB</p>
+                        </div>
+                    </div>
+
+                    <div class="component">
+                        <h2 class="component_label">Source code</h2>
+                        <div class="icon_label_pair">
+                            <a href="https://github.com/JustinKerr401/Wiki-Builder" target="_blank"><i class="fa-solid fa-code"></i></a>
+                            <p style="color: hsl(0, 100%, 50%, 0)">secret</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="description">
+                    Wiki Builder is a self-hosted documentation and knowledge management platform that allows users to create, organize, and maintain multiple independent wikis from a single application. Each wiki contains its own pages, navigation structure, appearance settings, and uploaded assets, making it suitable for personal documentation, project knowledge bases, game lore, research notes, or small team reference sites.<br><br>
+
+                    I created this project to solve the problem of managing structured documentation without relying on external wiki services. I wanted a lightweight system that could run locally, store content in MongoDB, keep uploaded images on the local filesystem for simplicity and accessibility, and support multiple completely separate wiki environments within one application.<br><br>
+
+                    The application is built with Node.js, Express.js, MongoDB, Mongoose, HTML, CSS, and JavaScript. It automatically creates a hierarchical page tree centered around a non-deletable Home page, generates navigation menus from parent-child relationships, and provides a full page editor capable of handling rich text sections, images, lists, links, and structured cover information. Every page also generates its own table of contents from section headers, making large documents easier to navigate.<br><br>
+
+                    To improve usability for larger knowledge bases, Wiki Builder includes a built-in search engine powered by MongoDB text indexes, an interactive graph view for exploring page hierarchies visually, link relationship visualization between pages, and page size statistics for identifying any particular document sizes. Each wiki can also be customized with its own background image and logo, allowing different projects to maintain distinct visual identities while sharing the same underlying application.<br><br>
+
+                    The project highlights my work with Express routing, MongoDB schema design, dynamic collection management, hierarchical data modeling, local file upload handling with Multer, frontend JavaScript integration, and interactive visualization features. It demonstrates the ability to design a full-stack application that combines database-backed content management, customizable user interfaces, and scalable organization tools for complex documentation systems.<br><br>
+                </p>
+
+                
+            </section>
+
             <!-------------  Bank Analyst --------------->
             <section id="Bank Analyst">
                 <h1 class="opener">Bank Analyst</h1>
